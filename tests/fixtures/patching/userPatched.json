@@ -1,0 +1,32 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "emails": [
+    {
+      "value": "jack@example.com"
+    }
+  ],
+  "name": {
+    "formatted": "Jack Green"
+  },
+  "active":false,
+  "addresses": [
+    {
+      "country": "UA"
+    }
+  ],
+  "photos": [
+    {
+      "value": "https://photos.example.com/profilephoto/72930000000/F.png"
+    },
+    {
+      "value": "https://photos.example.com/profilephoto/72930000000/T.png"
+    },
+    {
+      "value": "https://photos.example.com/profilephoto/72930000123/F.png"
+    }
+  ],
+  "meta": {
+    "resourceType": "User",
+    "location": "/v2/users/jack@example.com"
+  }
+}

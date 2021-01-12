@@ -1,0 +1,23 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:PatchOp"],
+  "operations": [
+    {
+      "op": "replace",
+      "path": "addresses.country",
+      "value": "Jack Green"
+    },
+    {
+      "op": "replace",
+      "path": "active",
+      "value": false
+    },
+    {
+      "op": "add",
+      "path": "photos",
+      "value": {
+        "type": "",
+        "value": "https://photos.example.com/profilephoto/72930000123/F.png"
+      }
+    }
+  ]
+}

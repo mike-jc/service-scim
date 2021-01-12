@@ -1,0 +1,17 @@
+{
+  "Schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "ExternalID": "a549a5cf-63f8-4788-adab-ddc853a75fbf",
+  "emails": [
+    {
+      "value": "jack@example.com"
+    }
+  ],
+  "name": {
+    "formatted": "Jack Green"
+  },
+  "active":true,
+  "meta": {
+    "resourceType": "User",
+    "Location": "/v2/users/jack@example.com"
+  }
+}

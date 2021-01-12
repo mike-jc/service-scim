@@ -1,0 +1,15 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "email": "jack@example.com",
+  "name": "Jack Green",
+  "active":true,
+  "roles": [
+    {
+      "value": "manager"
+    }
+  ],
+  "meta": {
+    "resourceType": "User",
+    "location": "/v2/users/jack@example.com"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemas": [
+    "urn:ietf:params:scim:schemas:core:2.0:ResourceType"
+  ],
+  "schemaExtensions": [
+    {
+      "schema": "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+      "required": false
+    }
+  ],
+  "id": "User",
+  "name": "User",
+  "endpoint": "/Users",
+  "description": "User account: https://tools.ietf.org/html/rfc7643#section-8.7.1",
+  "schema": "urn:ietf:params:scim:schemas:core:2.0:User",
+  "meta": {
+    "location": "http://127.0.0.1:8101/v2/ResourceTypes/User",
+    "resourceType": "ResourceType"
+  }
+}

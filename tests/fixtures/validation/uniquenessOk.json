@@ -1,0 +1,12 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "emails": [
+    {
+      "value": "noname@example.com"
+    }
+  ],
+  "meta": {
+    "resourceType": "User",
+    "location": "/v2/users/noname@example.com"
+  }
+}

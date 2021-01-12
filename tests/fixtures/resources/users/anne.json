@@ -1,0 +1,26 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "emails": [
+    {
+      "value": "anne@example.com"
+    }
+  ],
+  "name": {
+    "formatted": "Anne Smith"
+  },
+  "active":true,
+  "addresses": [
+    {
+      "country": "CN"
+    }
+  ],
+  "photos": [
+    {
+      "value": "https://photos.example.com/profilephoto/75890000001/F.png"
+    }
+  ],
+  "meta": {
+    "resourceType": "User",
+    "location": "/v2/users/43562"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+  "displayName": "Operators",
+  "members": [
+    {
+      "value": "43562",
+      "$ref": "/v2/users/43562",
+      "roles": [
+        {
+          "value": "operator"
+        }
+      ]
+    },
+    {
+      "value": "123",
+      "$ref": "/v2/users/123",
+      "roles": [
+        {
+          "value": "operator"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "resourceType": "Group",
+    "location": "/v2/groups/57"
+  }
+}

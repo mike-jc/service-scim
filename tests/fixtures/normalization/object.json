@@ -1,0 +1,33 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "externalId": "ef3b507c-d973-4d3f-821a-1fe5277f0af4",
+  "emails": [
+    {
+      "value": "anne@example.com"
+    }
+  ],
+  "name": {
+    "formatted": "Anne X"
+  },
+  "phoneNumbers": [
+    {
+      "value": "123-456-0789"
+    }
+  ],
+  "timezone": "Asia/Shanghai",
+  "active":true,
+  "photos": [
+    {
+      "value": "https://photos.example.com/profilephoto/72930000000Ccne/F",
+      "type": "photo"
+    },
+    {
+      "value": "https://photos.example.com/profilephoto/72930000000Ccne/T",
+      "type": "thumbnail"
+    }
+  ],
+  "meta": {
+    "resourceType": "User",
+    "location": "/v2/Users/ef3b507c-d973-4d3f-821a-1fe5277f0af4"
+  }
+}

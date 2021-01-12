@@ -1,0 +1,42 @@
+{
+  "schemas": [
+    "urn:ietf:params:scim:api:messages:2.0:ListResponse"
+  ],
+  "totalResults": 2,
+  "itemsPerPage": 2,
+  "startIndex": 1,
+  "Resources": [
+    {
+      "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+      "displayName": "Operators",
+      "members": [
+        {
+          "value": "43562",
+          "$ref": "/v2/users/43562"
+        },
+        {
+          "value": "123",
+          "$ref": "/v2/users/123"
+        }
+      ],
+      "meta": {
+        "resourceType": "Group",
+        "location": "/v2/groups/57"
+      }
+    },
+    {
+      "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+      "displayName": "Managers",
+      "members": [
+        {
+          "value": "43562",
+          "$ref": "/v2/users/43562"
+        }
+      ],
+      "meta": {
+        "resourceType": "Group",
+        "location": "/v2/groups/34"
+      }
+    }
+  ]
+}

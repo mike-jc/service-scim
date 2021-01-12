@@ -1,0 +1,14 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+  "displayName": "Managers",
+  "members": [
+    {
+      "value": "43562",
+      "$ref": "/v2/users/43562"
+    }
+  ],
+  "meta": {
+    "resourceType": "Group",
+    "location": "/v2/groups/34"
+  }
+}

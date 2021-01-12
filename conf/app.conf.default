@@ -1,0 +1,39 @@
+appname = service-scim
+httpport = 8101
+httpaddr =
+runmode = dev
+autorender = false
+copyrequestbody = true
+EnableDocs = true
+EnableHTTP = true
+EnableHTTPS = false
+
+logger.serviceId = scim
+logger.serverId = 1
+logger.env = local
+logger.writeLevel = 7
+logger.stdoutLevel = 7
+logger.engine = splunk
+logger.splunk.enabled = false
+logger.splunk.url =
+logger.splunk.token =
+
+configurator.url =
+
+jwtSecret = jwt_secret
+jwtLeeway = 120
+
+sp.version = v2
+sp.patch.enabled = true
+sp.bulk.enabled = false
+sp.bulk.maxOperations = 0
+sp.bulk.maxPayloadSize = 0
+sp.filter.enabled = false
+sp.filter.maxResults = 250
+sp.changePassword.enabled = false
+sp.sort.enabled = false
+sp.etag.enabled = false
+
+repository.engine = keeper
+repository.api.url = http://localhost:8090/api/v1
+repository.management.url = http://localhost:8090/

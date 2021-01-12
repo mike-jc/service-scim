@@ -1,0 +1,23 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "emails": [
+    {
+      "value": "anne@example.com"
+    }
+  ],
+  "name": {
+    "formatted": "Anne X"
+  },
+  "photos": [
+    {
+      "value": "https://photos.example.com/profilephoto/72930000000Ccne/F"
+    },
+    {
+      "value": "https://photos.example.com/profilephoto/72930000000Ccne/T"
+    }
+  ],
+  "meta": {
+    "resourceType": "User",
+    "location": "/v2/Users/ef3b507c-d973-4d3f-821a-1fe5277f0af4"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemas": [
+    "urn:ietf:params:scim:schemas:core:2.0:ServiceProviderConfig"
+  ],
+  "id": "ServiceProviderConfig",
+  "patch": {
+    "supported":true
+  },
+  "bulk": {
+    "supported":false,
+    "maxOperations":0,
+    "maxPayloadSize":0
+  },
+  "filter": {
+    "supported":false,
+    "maxResults": 0
+  },
+  "changePassword": {
+    "supported":false
+  },
+  "sort": {
+    "supported":false
+  },
+  "etag": {
+    "supported":false
+  },
+  "authenticationSchemes": [
+    {
+      "name": "HTTP Basic",
+      "description": "Authentication scheme using the HTTP Basic Standard",
+      "specUri": "http://www.rfc-editor.org/info/rfc2617",
+      "type": "httpbasic",
+      "primary": true
+    }
+  ],
+  "meta": {
+    "location": "http://127.0.0.1:8101/v2/ServiceProviderConfig",
+    "resourceType": "ServiceProviderConfig",
+    "created": "2019-04-04T17:43:00Z",
+    "lastModified": "2019-04-04T17:43:00Z",
+    "version": "v2"
+  }
+}

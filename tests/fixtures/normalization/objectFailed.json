@@ -1,0 +1,16 @@
+{
+  "emails": {
+      "value": "anne@example.com"
+  },
+  "name": {
+    "formatted": "Anne X"
+  },
+  "photos": [
+    {
+      "value": "https://photos.example.com/profilephoto/72930000000Ccne/F"
+    },
+    {
+      "value": "https://photos.example.com/profilephoto/72930000000Ccne/T"
+    }
+  ]
+}

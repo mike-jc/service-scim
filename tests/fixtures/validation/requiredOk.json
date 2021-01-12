@@ -1,0 +1,12 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "emails": [
+    {
+      "value": "jack@example.com"
+    }
+  ],
+  "name": {
+    "formatted": "Jack Green"
+  },
+  "externalId": "f785b154-7808-4d5f-92b6-0175ebbbc054"
+}

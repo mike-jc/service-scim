@@ -1,0 +1,22 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "emails": [
+    {
+      "value": "jack@example.com"
+    }
+  ],
+  "name": {
+    "formatted": "Jack Green"
+  },
+  "active":false,
+  "groups": [
+    {
+      "value": "Developers",
+      "$ref": "/v2/groups/Developers"
+    }
+  ],
+  "meta": {
+    "resourceType": "User",
+    "location": "/v2/users/jack@example.com"
+  }
+}
